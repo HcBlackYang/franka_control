@@ -1,0 +1,13 @@
+name: robot
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - defaults
+dependencies:
+  - python==3.9.23
+  - ffmpeg
+  - ipykernel
+prefix: /home/dell/miniconda3/envs/robot
